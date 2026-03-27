@@ -54,7 +54,7 @@ app.put('/cadastrados/:id', async (req, res) => {
                 bloco: req.body.bloco as string,
                 apartamento: req.body.apartamento as string,
                 autorizado: req.body.autorizado as string,
-                obs: req.body.obs as string,
+                obs: req.body.obs as string
             }
         })
         res.status(201).json(req.body)
